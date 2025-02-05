@@ -3,13 +3,13 @@ alert(3+30) // this cant br used as this is not browser,
 //Data Type
 
 /*
-number => 2 to power 25
-string = " sahdjsdhfa "
-bigint  // used for big interger value
-boolean => true/false
-null => standalone value
-undefine => 
-symbol 
+Number => 2 to power 25
+String = " sahdjsdhfa "
+Bigint  // used for big interger value
+Boolean => true/false
+Null => standalone value
+Undefine => 
+Symbol 
 
 // Object
 
