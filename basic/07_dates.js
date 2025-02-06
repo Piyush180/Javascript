@@ -15,6 +15,6 @@ let myTimeStamp = Date.now();
  console.log(myDate.getTime());
 // console.log(Math.floor(Date.now()/1000));  // seconds as /1000
 
-myDate.toLocaleDateString(`defauly`{
-    weekday = 'long'                                   // mydate se jo date milegi usko modify kar diya or abb weekday lon me milenge
+myDate.toLocaleDateString(`defauly`, {
+    weekday : 'long'                                   // mydate se jo date milegi usko modify kar diya or abb weekday lon me milenge
 })
