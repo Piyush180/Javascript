@@ -31,7 +31,7 @@ const obj2 = { 3:"c", 2:"d"}
 
 const obj3 = {...obj1,...obj2};                    //Spread opeator
 
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -56,3 +56,36 @@ users[1].email
 // console.log(Object.values(tinderUser));                 // key feild value 
 // console.log(Object.entries(tinderUser));               //every key value into a array
 //console.log(tinderUser01.hasOwnProperty('name'))
+
+
+
+
+
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++  De-Structure +++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+const course = {
+    coursename: "JS",
+    coursePrice: "999",
+    courseInstructor: "hitesh"
+
+}
+
+console.log(course.courseInstructor);
+
+const {courseInstructor : intructor} = course
+
+console.log(courseInstructor);
+console.log(intructor);
+
+
+
