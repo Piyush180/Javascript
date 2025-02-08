@@ -82,10 +82,20 @@ const course = {
 
 console.log(course.courseInstructor);
 
-const {courseInstructor : intructor} = course
+const {courseInstructor: intructor} = course
 
-console.log(courseInstructor);
+//console.log(courseInstructor);
 console.log(intructor);
 
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
+[
+    {},
+    {},
+    {}
+]
 
