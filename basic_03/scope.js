@@ -47,14 +47,19 @@ if (true) {
 
 //+++++++++++++++++++++++++++++++++++++++ Interesting  ++++++++++++++++++++++++++++++++++++++
 
+
+addone(5)                                   // kyu ki addone to apan ne kisi me hold  nahi kiya (like cosnt,let), ye run hoga
 function addone(num){
     return num + 1
 }
 
 addone(5)
 
+
+addtwo(9)                                  // const me hold kiya hai islea ye run nahi 
+                                            //  hoga kyu ki addtwo pehle acces hoga to usse function nahi milega
+
 const addtwo = function(num){
     return num + 2
 }
 
-addtwo(9)
