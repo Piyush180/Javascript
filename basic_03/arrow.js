@@ -35,9 +35,15 @@ const user = {
 
 // ++++++++++++++++++++++++++++++++  ARROW FUNCTION ++++++++++++++++
 
-const addNumbers (num1 , num2) => {
+// const addNumbers = (num1 , num2) => {                       // { } braces me retuen likhna padega 
 
-    return num1 + num2 
-}                 
-addNumbers(5,6)
-console.log(addNumbers);
+
+//     return num1 + num2 
+// }         
+
+const addNumbers = (num1 , num2) =>  (num1 + num2)                        // w/o curly braces ke retuen mtt likha chalega
+
+
+const result = addNumbers(5,6)
+console.log(result);
+  
