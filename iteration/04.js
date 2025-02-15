@@ -1,3 +1,6 @@
+// for in 
+
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
