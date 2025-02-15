@@ -1,4 +1,4 @@
-// for in 
+// for in                used for objects
 
 
 const myObject = {

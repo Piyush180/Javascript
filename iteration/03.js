@@ -1,4 +1,6 @@
-// for of
+// for of                   used for arrays
+
+
 const greeting = "hello"
 for (const greet of greeting) {
     // console.log(`each element is ${greet}`)
